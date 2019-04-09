@@ -1,4 +1,4 @@
-# vue-hm-closeset
+# vue-textarea-justheight
 
 > A Vue.js project
 
@@ -17,21 +17,8 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-
 # SCSSを有効化
 npm install sass-loader node-sass --save-dev
-
-<style lang="scss">
-/* write SASS! */
-</style>
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
