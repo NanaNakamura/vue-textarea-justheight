@@ -1,22 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <h1>input textarea just height!!!</h1>
+    <TextareaJustHeight/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import TextareaJustHeight from './components/TextareaJustHeight'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TextareaJustHeight
   }
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,5 +24,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  h1 {
+    margin-bottom: 80px;
+  }
 }
 </style>
