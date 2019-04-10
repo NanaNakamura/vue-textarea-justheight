@@ -12,7 +12,16 @@ export default {
     input: function () {
       this.$el.children[0].style.height = '';
       this.$el.children[0].style.height = this.$el.children[0].scrollHeight +'px';
+    },
+    handleResize: function() {
+      this.input();
     }
+  },
+  mounted: function () {
+    window.addEventListener('resize', this.handleResize)
+  },
+  beforeDestroy: function () {
+    window.removeEventListener('resize', this.handleResize)
   }
 
 }
@@ -23,14 +32,13 @@ export default {
 .box {
   margin: 0 auto;
   padding: 80px;
-  width: 500px;
+  width: 80%;
   background: lightgray;
   textarea {
-    border: 0px;
-    margin: 0px;
     padding: 10px;
-    width: 400px;
+    width: 100%;
     height: 45px;
+    background: #fff;
     border-radius: 10px;
     color: #505050;
     resize: none;
@@ -41,5 +49,4 @@ export default {
     box-sizing: border-box;
   }
 }
-
 </style>

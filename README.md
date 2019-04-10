@@ -23,6 +23,9 @@ npm install sass-loader node-sass --save-dev
 <style lang="scss">
 /* write SASS! */
 </style>
+
+# reset CSSをインストール
+npm install --save formula-css
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
