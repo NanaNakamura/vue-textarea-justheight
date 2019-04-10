@@ -1,6 +1,36 @@
 # vue-textarea-justheight
 
-> A Vue.js project
+テキストエリア内で、  
+入力文字数によって高さが変更されるコンポーネント  
+
+💫<a href="https://nananakamura.github.io/c/vue-textarea-justheight/index.html" target="_blank">Demo</a>
+
+
+## Usage
+
+### type 1の場合
+#### HTML
+```
+<template>
+  <TextareaJustHeight/>
+</template>
+```
+
+#### scripts
+
+.vueファイルコンポーネントフォルダーにコピペして、  
+componentsに追加？
+
+```
+import TextareaJustHeight from './components/TextareaJustHeight'
+
+export default {
+  components: {
+    TextareaJustHeight
+  }
+}
+```
+
 
 ## Build Setup
 

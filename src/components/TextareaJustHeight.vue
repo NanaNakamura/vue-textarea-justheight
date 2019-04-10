@@ -23,7 +23,6 @@ export default {
   beforeDestroy: function () {
     window.removeEventListener('resize', this.handleResize)
   }
-
 }
 </script>
 
