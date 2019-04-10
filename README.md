@@ -9,15 +9,14 @@
 
 ## Usage
 
-### type 1の場合
-#### HTML
+### HTML
 ```
 <template>
   <TextareaJustHeight/>
 </template>
 ```
 
-#### scripts
+### scripts
 
 .vueファイルコンポーネントフォルダーにコピペして、  
 componentsに追加？
