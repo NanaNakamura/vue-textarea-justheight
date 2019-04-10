@@ -2,6 +2,7 @@
 
 テキストエリア内で、  
 入力文字数によって高さが変更されるコンポーネント  
+※ リサイズにも対応
 
 💫<a href="https://nananakamura.github.io/c/vue-textarea-justheight/index.html" target="_blank">Demo</a>
 
