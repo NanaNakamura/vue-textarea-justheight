@@ -12,7 +12,7 @@
 ### HTML
 ```
 <template>
-  <TextareaJustHeight/>
+  <TextareaJustHeight v-model="data"/>
 </template>
 ```
 
@@ -27,9 +27,23 @@ import TextareaJustHeight from './components/TextareaJustHeight'
 export default {
   components: {
     TextareaJustHeight
+  },
+  data () {
+    return {
+      data: {
+        text: '',
+        height: '',
+        length: ''
+      }
+    }
   }
 }
 ```
+
+textareaの値は `data` にbindしてくれます格納されます  
+* data.height (textareaの高さ)
+* data.text (入力テキスト)
+* data.length (入力テキスト数)
 
 
 ## Build Setup

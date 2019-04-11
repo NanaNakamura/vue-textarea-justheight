@@ -4,15 +4,11 @@
     <div class="box">
       <TextareaJustHeight v-model="data"/>
     </div>
-    <div class="box ta-l">
-      <h2>data bind</h2>
-      <h3>data.text (入力テキスト)</h3>
-      <p>→　{{ data.text }}</p>
-      <h3>data.height (textareaの高さ)</h3>
-      <p>→　{{ data.height }}</p>
-      <h3>data.length (入力テキスト数)</h3>
-      <p>→　{{ data.length }}</p>
-    </div>
+    <h2>data bind</h2>
+    <p>data.height (textareaの高さ)<br>
+    data.text (入力テキスト)<br>
+    data.length (入力テキスト数)</p>
+    <pre>{{ data }}</pre>
   </div>
 </template>
 
@@ -42,40 +38,37 @@ export default {
 <style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  text-align: center;
   color: #2c3e50;
   margin: 100px 4%;
   h1 {
     margin-bottom: 80px;
     font-size: 2em;
     font-weight: bold;
+    text-align: center;
   }
   h2 {
+    margin-top: 80px;
     margin-bottom: 20px;
     font-size: 1.5em;
     font-weight: bold;
   }
-  h3 {
+  pre {
     margin-top: 20px;
-    // margin-bottom: 10px;
-    font-size: 1em;
-    font-weight: bold;
+    padding: 40px;
+    border-radius: 6px;
+    background: #f5f5f5;
+  }
+  p {
+    word-break: break-all;
+    line-height: 1.6;
   }
   .box {
     margin: 0 auto;
     padding: 80px;
-    width: 80%;
-    background: lightgray;
+    background: #eeeeee;
     + .box {
       margin-top: 80px;
     }
-    p {
-      word-break: break-all;
-      line-height: 1.6;
-    }
-  }
-  .ta-l {
-    text-align: left;
   }
 }
 </style>
