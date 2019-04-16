@@ -55,7 +55,6 @@ textarea {
   padding: 10px;
   width: 100%;
   height: 45px;
-  max-height: 200px;
   background: #fff;
   border-radius: 6px;
   color: #505050;
