@@ -42,14 +42,14 @@ export default {
   margin: 100px 4%;
   h1 {
     margin-bottom: 80px;
-    font-size: 2em;
+    font-size: 4rem;
     font-weight: bold;
     text-align: center;
   }
   h2 {
     margin-top: 80px;
     margin-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 3rem;
     font-weight: bold;
   }
   pre {
